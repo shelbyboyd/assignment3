@@ -45,38 +45,30 @@ body {
     float: left;
     margin: 1.5rem 5%;
 }
-  
-.nav-top {
-    clear: both;
-}
 
 .nav-top ul {
     margin: 0;
     padding: 0;
     background-color: #FFC907;
-    text-align: center;
 }
 
 .nav-top li {
-    display: inline;
     margin: 0;
     padding: 0;
+    float: right;
+    text-decoration: none;
+    
 }
 
 .nav-top a, 
 .nav-top a:link,
 .nav-top a:visited {
-    display: inline-block;
     margin:0;
     padding: 1.5rem 10%;
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
 } 
-
-.selected {
-    background-color: #AEA134;
-}
 
 article {
     margin: 0;
