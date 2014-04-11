@@ -29,10 +29,14 @@ img {
 body {
     margin: 0;
     padding: 0;
+    background-color: #BE3A27;
 }
 
 .billboard {
-    background-image: url(../images/banner.jpg)
+    background-image: url(../images/banner.jpg);
+    overflow: hidden;
+    height: auto;
+    width: auto;
 }
 
 .logo {
@@ -49,7 +53,7 @@ body {
 .nav-top ul {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #FFC907;
     text-align: center;
 }
 
