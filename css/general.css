@@ -75,12 +75,12 @@ body {
 } 
 
 .selected {
-    background-color: #666;
+    background-color: #AEA134;
 }
 
 article {
     margin: 0;
-    padding: 1.5rem 5%;
+    padding: 1.5rem 6%;
 }
 
 h1 {
@@ -94,17 +94,9 @@ figure {
     width: 60%;
 }
 
-figure a,
-figure a:link,
-figure a:visited {
-    font-size: .875rem;
-    color: black;
-    text-decoration: none;
-}
-
 footer {
     margin: 0;
-    padding: 1.5rem 5% 6rem;
+    padding: 1.5rem 5% 3rem;
     background-color: #FFC907;
 }
 
@@ -119,6 +111,6 @@ footer {
 .nav-bottom a:visited {
     color: white;
     text-decoration: none;
-    font-size: .875rem;
-    line-height: 1.5ren;
+    font-size: 1.25rem;
+    line-height: 1.rem;
 }
