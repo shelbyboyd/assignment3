@@ -29,21 +29,21 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-color: #BE3A27;
+    background-color: #F4A91C;
 }
 
 .billboard {
     background-image: url(../images/banner.jpg);
-    overflow: hidden;
-    height: auto;
-    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 4rem 0%;
 }
 
 .logo {
     width: 4.5rem;
     height: auto;
     float: left;
-    margin: 1.5rem 5%;
+    margin: 3rem 5%;
 }
 
 .nav-top ul {
@@ -53,10 +53,10 @@ body {
 }
 
 .nav-top li {
-    margin: 0;
+    margin: 1rem 5%;
     padding: 0;
-    float: right;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .nav-top a, 
@@ -67,6 +67,7 @@ body {
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
+    line-height:1.5rem;
 } 
 
 article {
@@ -88,7 +89,7 @@ figure {
 footer {
     margin: 0;
     padding: 1.5rem 5% 3rem;
-    background-color: #FFC907;
+    background-color: #AEA133;
 }
 
 .nav-bottom ul {
