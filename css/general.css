@@ -49,7 +49,7 @@ body {
 .nav-top ul {
     margin: 0;
     padding: 0;
-    background-color: #FFC907;
+    background-color: #FFC906;
 }
 
 .nav-top li {
@@ -57,17 +57,18 @@ body {
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    display:inline-block;
 }
 
 .nav-top a, 
 .nav-top a:link,
 .nav-top a:visited {
+    display: inline-block; 
     margin:0;
-    padding: 1.5rem 10%;
+    padding: 1rem;
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
-    line-height:1.5rem;
 } 
 
 article {
@@ -88,21 +89,32 @@ figure {
 
 footer {
     margin: 0;
-    padding: 1.5rem 5% 3rem;
-    background-color: #AEA133;
+    padding: 0;
+    background-color: ##FFC907;
 }
 
 .nav-bottom ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #FFC906;
+}
+
+.nav-bottom li {
+    margin: 1rem 5%;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display:inline-block;
 }
 
 .nav-bottom a,
 .nav-bottom a:link,
 .nav-bottom a:visited {
+    display: inline-block;
     color: white;
     text-decoration: none;
     font-size: 1.25rem;
     line-height: 1.5rem;
+    margin: 0;
+    padding: 1rem;
 }
